@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="Test.Listeners"/>
+	</listeners>
+  <test name="Test">
+	  
+    <classes>
+      <class name="Test.day1"/>
+      <class name="Test.day2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Automate">
+    <classes>
+      <class name="Test.MobileLogin">
+		  <methods>
+			  <include name="carLogin"></include>
+		  </methods>
+	  </class>
+      <class name="Test.RemoteLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Manual">
+    <classes>
+      <class name="Test.ManualLogin">
+		  <methods>
+			  <exclude name="carLogin"></exclude>
+			  <exclude name="mobile.*"></exclude>
+			  
+		  </methods>
+	  </class>/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
