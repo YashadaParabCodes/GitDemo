@@ -8,6 +8,8 @@ public class day1 {
 	@Test
 	public void demo() {
 		System.out.println("Hello");
+		System.out.println("World");
+		System.out.println("Welcome to new beginnings");
 		Assert.assertTrue(false);
 	}
 	
