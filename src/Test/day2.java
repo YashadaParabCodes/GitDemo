@@ -9,6 +9,7 @@ public class day2 {
 	@Test
 	public void demo() {
 		System.out.println("World");
+		System.out.println("Testing completed for day2");
 	}
 	
 	@AfterTest
