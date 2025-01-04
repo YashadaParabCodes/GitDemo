@@ -9,7 +9,7 @@ public class day1 {
 	public void demo() {
 		System.out.println("Hello");
 		System.out.println("World");
-		System.out.println("Welcome to new beginnings of 2025");
+		System.out.println("Welcome to new beginnings of 2025 year");
 		Assert.assertTrue(false);
 	}
 	
