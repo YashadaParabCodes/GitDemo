@@ -6,7 +6,10 @@ d
 e
 f
 g
+<<<<<<< HEAD
 h
+=======
+>>>>>>> a0bca9482d47a76d5a71573e272b359fbee2c2fc
 
 Numbers
 1
