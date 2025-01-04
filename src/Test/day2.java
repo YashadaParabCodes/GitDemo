@@ -11,6 +11,10 @@ public class day2 {
 		System.out.println("World");
 		System.out.println("Testing completed for day2");
 	}
+	@Test
+	public void demo1() {
+		System.out.println("Test2");
+	}
 	
 	@AfterTest
 	public void after() {
